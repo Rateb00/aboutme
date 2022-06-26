@@ -1,0 +1,313 @@
+ body {
+background-color:rgb(236,236,236);
+            }
+        
+      
+.log {
+    background-color: white;
+   box-sizing: border-box;
+    margin: 4em auto;
+    max-width: 640px;
+    padding: 20px 50px;
+    text-align: center;
+    border-radius: 5px;
+   height: 440px;
+}
+
+.inp {
+    font-size: 30px;
+}
+
+
+.student {
+    background-color: rgb(236,236,236);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    
+}
+
+.fag1 {
+  border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: transparent 0px 0px 0px 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    padding: 20px;
+    position: relative;
+    text-decoration: none;
+    width: 25%;
+    background-color: gray;
+    margin: 20px;
+    font-family: sans-serif;
+  background-size: cover;
+    
+}
+
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.topp {
+    background: url(Images/Skjermbilde2.PNG) left no-repeat, url(Images/Skjermbilde4.PNG) right no-repeat; 
+    background-color: black;
+    height: 60px;
+    margin: -5px;
+    
+}
+
+.menu {
+    overflow: hidden;
+    padding: 5px 20px;
+}
+
+.menu a {
+     float: center;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px; 
+    line-height: 50px;
+    border-radius: 5px;
+    font-family:monospace;
+    margin-left: 100px;
+    
+}
+.menu a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.sum {
+     color: black;
+    border-color: black;
+    background-color: white;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    cursor:pointer;
+    width: auto;
+    border-radius: 40px;
+    margin: 20px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.knapp {
+    margin-left: 450px;
+    padding: 20px;
+}
+
+.month {
+   padding: 70px 40px;
+  width: 100%;
+  background: rgb(255,195,0);
+  text-align: center;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+  margin-top: 10px;
+    
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+    color: black;
+    font-size: 30px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+    color: black;
+     font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.days {
+    width: 100%;
+}
+
+table {
+   border-collapse: collapse;
+     border: 3px solid black;
+    width: 100%;
+    height: 90%;
+
+}
+
+.days th {
+      border: 2px solid black;
+    background-color: black;
+    color: white;
+   
+}
+
+.days td {
+    border: 2px solid black;
+    width: 20%;
+     
+}
+
+
+
+
+.kalandertable {
+    width: 100%;
+    padding-top: 2px;
+}
+
+h5 {
+ float: right;
+    margin-top: -12px;
+    padding: 10px;
+    color: blue;
+    font-size: 20px;
+}
+
+.first {
+    text-align: center;
+    background-color: green;
+}
+
+.meny {
+    width: 70%;
+   padding: 15px 5px;
+    overflow: hidden;
+    padding-top: 1px;
+    height: 10%;
+    margin-left: 28%;
+    
+    
+
+}
+
+.meny a{
+    float: right;
+    color: black;
+    text-align: right;
+    text-decoration:overline;
+    font-size: 20px; 
+    line-height: 50px;
+    border-radius: 5px;
+    font-family:monospace;
+    padding: 30px;
+   
+   
+}
+
+.meny a:hover {
+ color: yellow;
+}
+
+.legg {
+    width: 200px;
+    font-size: 15px;
+    margin-top: 8px;
+    background-color: rgb(255,195,0);
+    font-family: algerian;
+    cursor: pointer;
+}
+
+.addform {
+    width: 95%;
+    box-sizing: inherit;
+    display: block;
+    background-color: white;
+    height: auto;
+    margin: 30px;
+    margin-top: -15px;
+    
+    
+    
+}
+
+h6 {
+    font-size: 30px;
+    margin: 30px;
+    padding-top: 30px;
+    font-family: serif;
+    margin-top: -20px;
+  
+   
+}
+
+.addinput{
+    font-size: 15px;
+    height: 40px;
+   margin-left: 18px;
+    border-radius: 6px;
+    border-color: gainsboro;
+}
+.addinput1{
+    font-size: 18px;
+    height: 40px;
+   margin-left: 240px;
+    margin-top: -40px;
+    border-radius: 6px;
+    border-color: gainsboro;
+}
+
+.last {
+     height: 40%; 
+    width: 97%; 
+    margin-left: 17px;
+    border: 1px solid rgb(237,236,235);
+    border-radius: 3px;
+}
+
+.knapp1 {
+    font-size: 30px;
+    margin-left: 17px;
+    background-color:  rgb(255,195,0);
+    border: 1px solid rgb(237,236,235);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.knapp2 {
+    font-size: 30px;
+    margin-left: 17px;
+    background-color: white;
+        border: 3px solid rgb(237,236,235);
+     border-radius: 5px;
+    margin-left: 30px;
+        cursor: pointer;
+
+
+}
+
+.asses {
+     width: 95%;
+    box-sizing: inherit;
+    display: block;
+    background-color: white;
+    height: 30%;
+    margin: 30px;
+   
+    
+}
+   
